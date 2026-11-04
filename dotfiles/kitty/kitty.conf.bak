@@ -1,0 +1,91 @@
+# vim:fileencoding=utf-8:foldmethod=marker
+
+# ==============================================================================
+# FONTS & WINDOW INTEGRATION
+# ==============================================================================
+# font_family      Iosevka Term
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
+font_size        10.5
+
+# Slight transparency & blur to blend seamlessly with the dark/light desktop split
+background_opacity 0.85
+background_blur    32
+
+# ==============================================================================
+# CURSOR CUSTOMIZATION
+# ==============================================================================
+
+# Soft dusty violet cursor to match the floral highlight on the left
+cursor            #a493a6
+cursor_text_color #121214
+cursor_shape      underline
+
+# ==============================================================================
+# COLOR SCHEME (Wallpaper Matched)
+# ==============================================================================
+
+# Off-white foreground, deep charcoal dark-mode background
+foreground #dcd8d3
+background #121214
+
+selection_foreground #121214
+selection_background #dcd8d3
+
+# ------------------------------------------------------------------------------
+# 16 Terminal Colors Palette
+# ------------------------------------------------------------------------------
+
+# Black / Charcoal (Background elements)
+color0 #121214
+color8 #4a4a50
+
+# Red / Rose-Rust
+color1 #c45a4a
+color9 #db6e5d
+
+# Green / Muted Sage
+color2  #70826e
+color10 #879a85
+
+# Yellow / Warm Muted Gold
+color3  #d97336
+color11 #f08a4b
+
+# Blue / Slate Blue-Gray
+color4  #5e6e80
+color12 #77899e
+
+# Magenta / Muted Floral Lavender (Accent color)
+color5  #8a7b8c
+color13 #a493a6
+
+# Cyan / Dusty Teal
+color6  #628285
+color14 #7a9c9f
+
+# White / Off-White & Pure White
+color7  #dcd8d3
+color15 #f4f1ec
+
+# ------------------------------------------------------------------------------
+# Visual Marks
+# ------------------------------------------------------------------------------
+
+mark1_foreground #121214
+mark1_background #8a7b8c
+
+mark2_foreground #121214
+mark2_background #d97336
+
+mark3_foreground #121214
+mark3_background #dcd8d3
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="IBM Plex Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
